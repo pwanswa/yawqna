@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Featured </title>
+    <link href="https://starbucks.ph/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://starbucks.ph/css/style.css?8" rel="stylesheet">
+    <style>
+        /* Add any additional styles here */
+        body {
+            margin: 30px;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        #section-4 {
+            display: flex;
+            justify-content: space-between;
+            align-items: center; 
+            margin: 5% 5%;
+        }
+
+        .col-12 {
+            width: 100%;
+        }
+
+        .col-md-6 {
+            width: 50%;
+        }
+
+        .col-xxl-5 {
+            flex: 0 0 41.66666667%;
+            max-width: 41.66666667%;
+        }
+
+        .darkg-bg2 {
+            background-color: #1E3932;
+        }
+
+        .card-wrapper {
+            display: flex;
+            flex-direction: column; 
+            justify-content: center; 
+            background-color: #1E3932;
+            height: 100%; 
+        }
+
+        .img-wrapper {
+            flex: 0 0 100%;  
+        }
+
+        .thumbnail-row {
+            display: flex;
+        }
+
+        .thumbnail {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .content-box {
+            flex: 0 0 100%; 
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
+            padding: 0 15px;
+        }
+
+        .content-title {
+            color: #D4E9E2;
+            margin-bottom: 5%;
+        }
+
+        .content-desc {
+            color: #D4E9E2;
+            margin-bottom: 5%;
+        }
+
+        .sb-button {
+            color: #D4E9E2;
+            text-decoration: none;
+            border: 2px solid #D4E9E2;
+            padding: 10px 20px;
+            display: inline-block;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .sb-button:hover {
+            background-color: #D4E9E2;
+            color: #1E3932;
+        }
+    </style>
+</head>
+<body>
+    <div id="section-4" class="content-column2 row">
+
+        <!-- Card 1 -->
+        <div class="col-12 col-md-6 col-xxl-5 darkg-bg2">
+            <div class="card-wrapper">
+                <div class="img-wrapper">
+                    <div class="thumbnail-row">
+                        <img class="thumbnail" src="1.jpg" alt="Card 1 Image">
+                    </div>
+                </div>
+                <div class="content-box">
+                    <h3 class="content-title"> Good Day Drinks </h3>
+                    <p class="content-desc">Bold Brews, Bright Moods: Awaken Your Day with a Splash of Starbucks Magic.</p>
+                    <a href="menu.html" target="_blank" class="sb-button sb-button--default sb-button--white">Explore</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-12 col-md-6 col-xxl-5 darkg-bg2">
+            <div class="card-wrapper">
+                <div class="img-wrapper">
+                    <div class="thumbnail-row">
+                        <img class="thumbnail" src="2.jpg" alt="Card 2 Image">
+                    </div>
+                </div>
+                <div class="content-box">
+                    <h3 class="content-title">Dreamy Desserts</h3>
+                    <p class="content-desc">Sweet Escapes, Heavenly Landings: Where Dessert Becomes a Delicious Journey</p>
+                    <a href="menu.html" target="_blank" class="sb-button sb-button--default sb-button--white">Explore</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
