@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starbucks Menu</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-image: url('background.jpg');
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+        }
+
+        header {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav input[type="text"] {
+            padding: 8px;
+            border: none;
+            border-radius: 5px;
+            margin-right: 10px;
+            width: 200px;
+        }
+
+        #searchBtn {
+            padding: 8px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            color: #fff;
+            background-color: #006741;
+        }
+
+        section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        .menu-item {
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin: 15px;
+            width: 300px;
+            overflow: hidden;
+            color: #333;
+        }
+
+        .menu-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .menu-item-content {
+            padding: 15px;
+        }
+
+        .featured {
+            background-color: #ffeeea;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Starbucks Menu</h1>
+    </header>
+
+    <nav>
+        <input type="text" placeholder="Search...">
+        <button id="searchBtn">Search</button>
+    </nav>
+
+    <section>
+        <div class="menu-item featured">
+            <img src="drink1.jpg" alt="Featured Drink 1">
+            <div class="menu-item-content">
+                <h2>Caramel Macchiato</h2>
+                <p>Espresso combined with vanilla-flavored syrup, milk, and caramel sauce over ice.</p>
+            </div>
+        </div>
+
+        <div class="menu-item featured">
+            <img src="drink2.jpg" alt="Featured Drink 2">
+            <div class="menu-item-content">
+                <h2>Flat White</h2>
+                <p>Ristretto shots of espresso with steamed whole milk.</p>
+            </div>
+        </div>
+
+        <div class="menu-item featured">
+            <img src="drink3.jpg" alt="Featured Drink 3">
+            <div class="menu-item-content">
+                <h2>Green Tea Latte</h2>
+                <p>Matcha green tea with steamed milk and a hint of sweetness.</p>
+            </div>
+        </div>
+
+        <div class="menu-item featured">
+            <img src="drink4.jpg" alt="Featured Drink 4">
+            <div class="menu-item-content">
+                <h2>Nitro Cold Brew</h2>
+                <p>Cold brew coffee infused with nitrogen for a smooth, creamy texture.</p>
+            </div>
+        </div>
+
+        <div class="menu-item featured">
+            <img src="drink5.jpg" alt="Featured Drink 5">
+            <div class="menu-item-content">
+                <h2>Peppermint Mocha</h2>
+                <p>Espresso, steamed milk, chocolate, and peppermint syrup topped with whipped cream.</p>
+            </div>
+        </div>
+
+        <div class="menu-item featured">
+            <img src="food1.jpg" alt="Featured Food 1">
+            <div class="menu-item-content">
+                <h2>Avocado Toast</h2>
+                <p>Whole grain toast topped with mashed avocado, cherry tomatoes, and a sprinkle of sea salt.</p>
+            </div>
+        </div>
+
+        <div class="menu-item featured">
+            <img src="food2.jpg" alt="Featured Food 2">
+            <div class="menu-item-content">
+                <h2>Chicken Caesar Wrap</h2>
+                <p>Grilled chicken, romaine lettuce, parmesan cheese, and Caesar dressing wrapped in a tortilla.</p>
+            </div>
+        </div>
+
+        <div class="menu-item featured">
+            <img src="food3.jpg" alt="Featured Food 3">
+            <div class="menu-item-content">
+                <h2>Quinoa Salad</h2>
+                <p>Fresh quinoa salad with mixed vegetables, feta cheese, and balsamic vinaigrette.</p>
+            </div>
+        </div>
+
+        <div class="menu-item featured">
+            <img src="food4.jpg" alt="Featured Food 4">
+            <div class="menu-item-content">
+                <h2>Caprese Panini</h2>
+                <p>Tomato, mozzarella, and basil pressed between slices of ciabatta bread.</p>
+            </div>
+        </div>
+
+        <div class="menu-item featured">
+            <img src="food5.jpg" alt="Featured Food 5">
+            <div class="menu-item-content">
+                <h2>Chocolate Croissant</h2>
+                <p>Flaky croissant filled with rich chocolate for a delightful pastry experience.</p>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
